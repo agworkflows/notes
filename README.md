@@ -12,11 +12,12 @@ Guidelines
 - all the code for a project lives in a single git repo exclusive to the project 
 	(grouped into an organization)
 - the only configuration for a needed is the local name of the projects directory
-- all data cleaning is done in an R script
+- code should be in a git repo. Data should be in separate folders (and normally not in a repo)
 - code shared between projects is accessed through R packages
+- all data cleaning is done in an R script 
+- cleaned data should follow the Carob standard
 - all the project specific data is in a folder exclusive to the project (raw / intermediate / final)
 - other standard folders: output, img
-- code and data should be in separate folders
 - general use data are accessed via R packages (not CGlabs specific)
 - no hard-coded paths for data or "source()"
 
